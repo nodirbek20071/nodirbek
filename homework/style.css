@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+background-color: black;
+}
+.calculator {
+    background-color: black;
+    max-width: 800px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.calculator .display {
+    grid-column: span 4;
+    text-align: right;
+    font-size: 50px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.calculator button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: #ccc;
+}
+
+.calculator .number,
+.calculator .operator {
+    grid-column: span 1;
+}
+
+.calculator .equals {
+    grid-column: span 2;
+}
+.calculator .percentage{
+    grid-column: span 1;
+}
+.calculator .clear {
+    grid-column: span 2;
+    background-color: orange;
+}

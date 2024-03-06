@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+.cont{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns:auto auto ;
+    grid-template-rows:auto auto auto ;
+    gap: 10px;
+}
+.content>div{
+    border-radius: 10px;
+}
+.container1{
+ display: grid;
+ grid-template-columns: auto auto ;
+ grid-template-rows: auto;
+ gap: 10px;
+}
+.container1>div{  
+    border-radius: 10px;
+}
+.container4>div{ 
+    border-radius: 10px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    gap: 10px;
+} 
+.title{
+    grid-row: 1/3;
+}
+.title1{
+    grid-row: span 2;
+}
+.title{
+    background-image: url("https://kartinkis.cdnbro.com/posts/59103781-ozero-issyk-kul-zimoi-27.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo1{
+    background-image: url("https://w.forfun.com/fetch/e0/e067a1905c80bf2adc30a551725af1c6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo2{
+    background-image: url("https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2101883986631035");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title1{
+    background-image: url("https://shop.r10s.jp/atmos-tokyo/cabinet/nike7/cz5093-100-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo2{
+    background-image: url("https://shop.r10s.jp/atmos-tokyo/cabinet/nike7/cz5093-100-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo3{
+    background-image: url("https://shop.r10s.jp/atmos-tokyo/cabinet/nike7/cz5093-100-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
